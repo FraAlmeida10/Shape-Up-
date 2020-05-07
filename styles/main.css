@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+/*Pseudo Class for my section links */
+/* unvisited link */
+section a:link {
+color: maroon;
+text-decoration: none;
+}
+  
+/* visited link */
+section a:visited {
+color: maroon;
+text-decoration: none;
+}
+  
+/* mouse over link */
+section a:hover {
+color: steelblue;
+text-decoration: underline;
+}
+
+/* selected link */
+section a:focus {
+color: steelblue;
+text-decoration: underline;
+}
+
+aside a {
+    font-weight: bold;
+}
+
+/*Pseudo Class for my aside links */
+/* unvisited link */
+aside a:link {
+color: steelblue;
+text-decoration: none;
+}
+    
+/* visited link */
+aside a:visited {
+color: steelblue;
+text-decoration: none;
+}
+    
+/* mouse over link */
+aside a:hover {
+    color: maroon;
+    text-decoration: underline;
+}
+
+/* selected link */
+aside a:focus {
+color: maroon;
+text-decoration: underline;
+}
+
+header h2 {
+    padding-top: 20px;
+    font-style: italic;
+    color: steelblue;
+    text-shadow: 2px 2px 10px steelblue;
+}
+header img {
+    float: left;
+    padding: 10px;
+    }
+
+    main{
+        clear: both;
+    }
+
+    aside ul{
+        line-height: 25px;
+    }
+
+    footer {
+        font-size: 90%;
+        text-align: center;
+    }
